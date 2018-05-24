@@ -1,0 +1,35 @@
+.latest-courses-item__info {
+    position: relative;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.latest-courses-item__category {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 25px;
+    font-family: ralewaymedium, Arial, sans-serif;
+    font-size: 14px;
+    background-image: url('img/category-icon.svg');
+    background-repeat: no-repeat;
+}
+
+.latest-courses-item__price {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    font-family: ralewaybold, Arial, sans-serif;
+    font-size: 24px;
+    color: #00bfa5;
+}
+
+.latest-courses-item__price::before {
+    content: '$'
+}
+
+.latest-courses-item__rating {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
