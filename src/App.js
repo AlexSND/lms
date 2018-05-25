@@ -13,6 +13,7 @@ import Header from './Components/Header/Header'
 import Advantage from './Components/Advantage/Advantage';
 import KeyPoint from './Components/KeyPoint/KeyPoint';
 import LatestCourses from './Components/LatestCourses/LatestCourses';
+import LiveClass from './Components/LiveClass/LiveClass';
 
 class App extends Component {
     render() {
@@ -30,6 +31,7 @@ class App extends Component {
                 <LatestCourses
                     latestCoursesData={latestCoursesData}
                 />
+                <LiveClass />
             </div>
         )
     }

@@ -1,0 +1,25 @@
+.live-class {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #00bfa5;
+    color: #fff;
+}
+
+.live-class__pre-title {
+    font-family: ralewaymedium, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.live-class__title {
+    margin-top: 15px;
+    font-family: ralewaybold, Arial, sans-serif;
+    font-size: 36px;
+}
+
+.live-class__body-text {
+    margin-top: 55px;
+    margin-bottom: 65px;
+    font-family: robotoregular, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
