@@ -1,6 +1,6 @@
 .latest-courses-item__info {
     position: relative;
-    height: 50px;
+    height: 35px;
     margin-top: 40px;
 }
 
@@ -26,10 +26,4 @@
 
 .latest-courses-item__price::before {
     content: '$'
-}
-
-.latest-courses-item__rating {
-    position: absolute;
-    bottom: 0;
-    right: 0;
 }

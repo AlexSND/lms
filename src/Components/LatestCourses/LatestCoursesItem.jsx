@@ -4,9 +4,10 @@ import './LatestCoursesItem.css'
 
 import LinkButton from '../LinkButton/LinkButton'
 import LatestCoursesItemInfo from './LatestCoursesItemInfo'
+import Rating from './Rating/Rating';
 
 const LatestCoursesItem = (props) => {
-    
+    const {rating} = props.latestCoursesData
     return (
         <li className="latest-courses-item">
             <img src={process.env.PUBLIC_URL + props.latestCoursesData.img} className="latest-courses-item__img" alt="course"/>
@@ -16,6 +17,8 @@ const LatestCoursesItem = (props) => {
                 rating={props.latestCoursesData.rating}
                 price={props.latestCoursesData.price}
             />
+
+            <Rating rating={rating}/>
 
             <h3 className="latest-courses-item__title">
                 {props.latestCoursesData.title}

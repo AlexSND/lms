@@ -1,0 +1,25 @@
+.stars-rating__wrapper {
+    display: block;
+    text-align: right;
+    font-size: 0;
+}
+
+.stars-rating {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 80px;
+}
+
+.stars-rating__full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.stars-rating__empty {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

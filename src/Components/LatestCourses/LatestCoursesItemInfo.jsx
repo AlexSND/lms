@@ -11,9 +11,6 @@ const LatestCoursesItemInfo = (props) => {
             <div className="latest-courses-item__price">
                 {props.price}
             </div>
-            <div className="latest-courses-item__rating">
-                {props.rating}
-            </div>
         </div>
     )
 }

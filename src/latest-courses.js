@@ -6,7 +6,7 @@ export default [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ac tellus luctus, ut volutpat neque dictumIn vestibulum ut velit accumsan fermentum',
         category: 'Business',
         price: 159.00,
-        rating: 4,
+        rating: 3.7,
         link: ''
     },
     {
@@ -16,7 +16,7 @@ export default [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ac tellus luctus, ut volutpat neque dictumIn vestibulum ut velit accumsan fermentum',
         category: 'Computer Science',
         price: 159.00,
-        rating: 4.5,
+        rating: 2.5,
         link: ''
     },
     {
