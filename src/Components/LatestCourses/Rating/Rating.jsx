@@ -14,24 +14,19 @@ class Rating extends Component {
     }
 
     componentDidMount() {
-        const starsFull = document.querySelector('.stars-rating__full')
         const starsWidth = this.props.rating <= 5 ?
-            this.props.rating * 100 / 5 + '%' :
-            '100%'
+            this.props.rating * 100 / 5 :
+            100
         this.setState({
             starsWidth
         })
     }
 
-    render() {
-        const starsWidth = {
-            width: `${this.state.starsWidth}`
-        }
-        
+    render() {        
         return (
             <div className="stars-rating__wrapper">
                 <div className="stars-rating">
-                    <div className="stars-rating__full" style={starsWidth}>
+                    <div className="stars-rating__full" style={ {width: `${this.state.starsWidth}%`} }>
                         <img src={starsFull} alt="rating"/>
                     </div>
                     <div className="stars-rating__empty">
