@@ -3,7 +3,7 @@ import YoutubeItem from './YoutubeItem'
 
 import './Youtube.css'
 
-const API_KEY = 'AIzaSyA9iHrfB3xtrnwPx13kaz2rMwvpiQmNYw8'
+const API_KEY = ''
 const CHANNEL_ID = 'UCt6DabGbxO4vA7Q9-wREWcQ'
 const RESULTS = '25'
 
