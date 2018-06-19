@@ -3,11 +3,12 @@ import React from 'react'
 import './LiveClass.css'
 
 import LinkButton from '../LinkButton/LinkButton'
+import Youtube from './Youtube/Youtube';
 
-const LiveClass = (props) => {
+const LiveClass = () => {
     return (
-        <div className="live-class">
-            <div className="main-wrapper main-wrapper_flex">
+        <section className="live-class">
+            <div className="main-wrapper main-wrapper_flex-align-top">
                 <div className="live-class__left-col">
                     <span className="live-class__pre-title">
                         Welcome to
@@ -21,10 +22,10 @@ const LiveClass = (props) => {
                     <LinkButton text='View all classes' invert/>
                 </div>
                 <div className="live-class__right-col">
-                
+                    <Youtube />
                 </div>                
             </div>
-        </div>
+        </section>
     )
 }
 

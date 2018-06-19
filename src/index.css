@@ -29,3 +29,9 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
 }
 
+.main-wrapper_flex-align-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+

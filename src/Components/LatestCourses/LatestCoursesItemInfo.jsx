@@ -8,7 +8,9 @@ const LatestCoursesItemInfo = (props) => {
             <div className="latest-courses-item__category">
                 {props.category}
             </div>
-            <div className="latest-courses-item__price">
+            <div className={isNaN(props.price)
+                ? "latest-courses-item__price"
+                : "latest-courses-item__price latest-courses-item__price_dollar"}>
                 {props.price}
             </div>
         </div>

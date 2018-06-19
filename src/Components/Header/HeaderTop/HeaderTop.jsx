@@ -2,10 +2,10 @@ import React from 'react'
 
 import './HeaderTop.css'
 
-import phoneIcon from './phone-icon.svg'
-import mailIcon from './mail-icon.svg'
-import loginIcon from './login-icon.svg'
-import registerIcon from './register-icon.svg'
+import phoneIcon from './img/phone-icon.svg'
+import mailIcon from './img/mail-icon.svg'
+import loginIcon from './img/login-icon.svg'
+import registerIcon from './img/register-icon.svg'
 
 import HeaderTopLink from './HeaderTopLink';
 

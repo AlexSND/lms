@@ -5,6 +5,14 @@
     color: #fff;
 }
 
+.live-class__left-col, .live-class__right-col {
+    width: 50%;
+}
+
+.live-class__right-col {
+    padding-left: 80px;
+}
+
 .live-class__pre-title {
     font-family: ralewaymedium, Arial, sans-serif;
     font-size: 20px;

@@ -7,12 +7,7 @@ import HeaderBody from './HeaderBody/HeaderBody'
 const Header = (props) => {
     return (
         <header className="header">
-            <HeaderTop 
-                phoneIcon={props.phoneIcon}
-                mailIcon={props.mailIcon}
-                loginIcon={props.loginIcon}
-                registerIcon={props.registerIcon}
-            />
+            <HeaderTop />
             <HeaderNav
                 mainLogo={props.mainLogo}
                 headerNavLinks={props.headerNavLinks}

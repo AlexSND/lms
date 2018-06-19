@@ -15,7 +15,7 @@ export default [
         title: 'Mathematics',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ac tellus luctus, ut volutpat neque dictumIn vestibulum ut velit accumsan fermentum',
         category: 'Computer Science',
-        price: 159.00,
+        price: 140.00,
         rating: 2.5,
         link: ''
     },
