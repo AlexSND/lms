@@ -13,6 +13,10 @@
     padding-left: 80px;
 }
 
+.live-class__left-col {
+    padding-right: 80px;
+}
+
 .live-class__pre-title {
     font-family: ralewaymedium, Arial, sans-serif;
     font-size: 20px;

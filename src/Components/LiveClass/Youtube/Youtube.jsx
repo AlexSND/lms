@@ -3,7 +3,7 @@ import YoutubeItem from './YoutubeItem'
 
 import './Youtube.css'
 
-const API_KEY = ''
+const API_KEY = 'AIzaSyA9iHrfB3xtrnwPx13kaz2rMwvpiQmNYw8'
 const CHANNEL_ID = 'UCt6DabGbxO4vA7Q9-wREWcQ'
 const RESULTS = '25'
 
@@ -52,7 +52,6 @@ class Youtube extends Component {
     }
 
     render() {
-        console.log(REQUEST_URL)
         const youtubeitem = this.state.resultData[this.state.count]
         return (
             <div className="live-class__slider">
