@@ -19,6 +19,8 @@ import LiveClass from './Components/LiveClass/LiveClass'
 import News from './Components/News/News'
 import Footer from './Components/Footer/Footer'
 
+import ScrollProgress from './Components/ScrollProgress/ScrollProgress'
+
 class App extends Component {
     render() {
         return (
@@ -38,6 +40,7 @@ class App extends Component {
                 <LiveClass />
                 <News newsData={newsData}/>
                 <Footer socialLinksData={socialLinksData}/>
+                <ScrollProgress />
             </div>
         )
     }
