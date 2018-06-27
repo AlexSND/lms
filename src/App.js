@@ -5,6 +5,7 @@ import advantageData from './advantage'
 import keypointsData from './keypoints'
 import latestCoursesData from './latest-courses'
 import newsData from './news'
+import socialLinksData from './social-links'
 
 import './fonts/fonts.css'
 import './index.css'
@@ -16,6 +17,7 @@ import KeyPoint from './Components/KeyPoint/KeyPoint'
 import LatestCourses from './Components/LatestCourses/LatestCourses'
 import LiveClass from './Components/LiveClass/LiveClass'
 import News from './Components/News/News'
+import Footer from './Components/Footer/Footer'
 
 class App extends Component {
     render() {
@@ -35,6 +37,7 @@ class App extends Component {
                 />
                 <LiveClass />
                 <News newsData={newsData}/>
+                <Footer socialLinksData={socialLinksData}/>
             </div>
         )
     }

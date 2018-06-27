@@ -1,0 +1,9 @@
+.page-footer {
+    padding-top: 100px;
+    background-color: #00bfa5;
+}
+
+.page-footer__social-links {
+    display: block;
+    text-align: right;
+}
