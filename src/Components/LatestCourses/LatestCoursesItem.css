@@ -1,5 +1,6 @@
 .latest-courses-item {
     width: 32%;
+    margin-bottom: 50px;
 }
 
 .latest-courses-item__img {
@@ -21,4 +22,10 @@
     font-size: 14px;
     line-height: 24px;
     opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+    .latest-courses-item {
+        width: 100%;
+    }
 }

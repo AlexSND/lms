@@ -6,7 +6,7 @@ import LatestCoursesList from './LatestCoursesList'
 
 const LatestCourses = (props) => {
     return (
-        <section className="latest-courses">
+        <section className="latest-courses" id="latest-courses">
             <div className="main-wrapper">
                 <h2 className="latest-courses__title">
                     Latest Courses

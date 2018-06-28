@@ -78,4 +78,10 @@
     color: #a22631;
     text-decoration: none;
 }
-  
+
+@media (max-width: 768px) {
+    .news__item {
+        width: 100%;
+        margin-right: 0;
+    }
+}

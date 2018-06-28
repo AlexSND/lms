@@ -6,7 +6,7 @@ import AdvantageList from './AdvantageList.jsx'
 
 const Advantage = (props) => {
     return (
-        <section className="advantage">
+        <section className="advantage" id="advantage">
             <div className="main-wrapper">
                 <h2 className="advantage__title">
                     Why Choose Us?

@@ -8,7 +8,7 @@ import Copyright from './Copyright/Copyright'
 
 const Footer = (props) => {
     return (
-        <footer className="page-footer">
+        <footer className="page-footer" id="contact">
             <div className="main-wrapper">
                 <div className="page-footer__form">
                     <NewsletterForm />

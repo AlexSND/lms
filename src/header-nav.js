@@ -1,33 +1,33 @@
 export default [
     {
         id: 1,
-        anchorId: 'home',
+        anchorId: 'header',
         text: 'home'
     },
     {
         id: 2,
-        anchorId: 'courses',
-        text: 'courses'
-    },
-    {
-        id: 3,
-        anchorId: 'pages',
-        text: 'pages'
-    },
-    {
-        id: 4,
-        anchorId: 'faculty',
-        text: 'faculty'
-    },
-    {
-        id: 5,
-        anchorId: 'about',
+        anchorId: 'advantage',
         text: 'about'
     },
     {
+        id: 3,
+        anchorId: 'key-points',
+        text: 'key points'
+    },
+    {
+        id: 4,
+        anchorId: 'latest-courses',
+        text: 'courses'
+    },
+    {
+        id: 5,
+        anchorId: 'live-class',
+        text: 'video'
+    },
+    {
         id: 6,
-        anchorId: 'blog',
-        text: 'blog'
+        anchorId: 'news',
+        text: 'news'
     },
     {
         id: 7,

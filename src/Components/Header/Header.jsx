@@ -6,7 +6,7 @@ import HeaderBody from './HeaderBody/HeaderBody'
 
 const Header = (props) => {
     return (
-        <header className="header">
+        <header className="header" id="header">
             <HeaderTop />
             <HeaderNav
                 mainLogo={props.mainLogo}

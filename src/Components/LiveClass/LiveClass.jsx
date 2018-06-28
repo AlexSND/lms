@@ -7,7 +7,7 @@ import Youtube from './Youtube/Youtube';
 
 const LiveClass = () => {
     return (
-        <section className="live-class">
+        <section className="live-class" id="live-class">
             <div className="main-wrapper main-wrapper_flex-align-top">
                 <div className="live-class__left-col">
                     <span className="live-class__pre-title">

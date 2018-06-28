@@ -6,7 +6,7 @@ import KeyPointList from './KeyPointList'
 
 const KeyPoint = (props) => {
     return (
-        <section className="key-point main-wrapper">
+        <section className="key-point main-wrapper" id="key-points">
             <h2 className="key-point__title">
                 Which OneYou interested?
             </h2>
