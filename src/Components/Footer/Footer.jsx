@@ -4,6 +4,7 @@ import './Footer.css'
 import NewsletterForm from './NewsletterForm/NewsletterForm'
 import SocialLinks from './SocialLinks/SocialLinks'
 import Contacts from './Contacts/Contacts'
+import Copyright from './Copyright/Copyright'
 
 const Footer = (props) => {
     return (
@@ -17,6 +18,7 @@ const Footer = (props) => {
                     <SocialLinks socialLinksData={props.socialLinksData}/>
                 </div>
                 <Contacts />
+                <Copyright />
             </div>
         </footer>
     )
