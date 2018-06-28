@@ -1,0 +1,18 @@
+.page-footer__contacts {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.page-footer__adress {
+    width: 30%;
+}
+
+.page-footer__quicklinks {
+    width: 20%;
+}
+
+.page-footer__map {
+    width: 50%;
+}

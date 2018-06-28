@@ -1,0 +1,32 @@
+.quicklinks__title {
+    font-family: ralewaybold, Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.quicklinks__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: ralewaymedium, Arial, sans-serif;
+    font-size: 14px;
+    color: #e5e5e5;
+}
+
+.quicklinks__separator {
+    height: 29px;
+}
+
+.quicklinks__item {
+    margin-top: 22px;
+}
+
+.quicklinks__link {
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.quicklinks__link:hover {
+    text-decoration: underline;
+}
+

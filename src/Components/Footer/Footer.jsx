@@ -3,6 +3,7 @@ import './Footer.css'
 
 import NewsletterForm from './NewsletterForm/NewsletterForm'
 import SocialLinks from './SocialLinks/SocialLinks'
+import Contacts from './Contacts/Contacts'
 
 const Footer = (props) => {
     return (
@@ -15,9 +16,7 @@ const Footer = (props) => {
                 <div className="page-footer__social-links">
                     <SocialLinks socialLinksData={props.socialLinksData}/>
                 </div>
-                <div className="page-footer__bottom">
-                    
-                </div>
+                <Contacts />
             </div>
         </footer>
     )

@@ -1,0 +1,38 @@
+.adress__title {
+    font-family: ralewaybold, Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.adress__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: ralewaymedium, Arial, sans-serif;
+    font-size: 14px;
+    color: #e5e5e5;
+}
+
+.adress__separator {
+    height: 29px;
+}
+
+.adress__item {
+    margin-top: 15px;
+}
+
+.adress__item span {
+    font-family: ralewaybold, Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.adress__link {
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.adress__link:hover {
+    text-decoration: underline;
+}
+
